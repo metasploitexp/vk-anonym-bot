@@ -1,0 +1,23 @@
+{
+  "name": "vkbot",
+  "version": "1.0.0",
+  "description": "bot for vk",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon app.js"
+  },
+  "keywords": [
+    "vk",
+    "bot",
+    "api"
+  ],
+  "author": "Ruslan Marzhokhov <metasploitexp@mail.ru>",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "node-vk-bot-api": "^3.5.0",
+    "nodemon": "^2.0.15"
+  }
+}
